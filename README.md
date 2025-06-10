@@ -1,8 +1,3 @@
-
-# Our Solution for T-AIMS Challenge
-
-Academic Grand Challenge on Climate Change
-
 ### Problem Statement
 To develop solutions that can predict the occurrence of heat waves and the Air Quality Index (AQI) for Tier-2 cities of Telangana. The goal is to come up with innovative and effective ways to mitigate the impact of heat waves and poor air quality on the health and well-being of the residents in these cities. The solutions should be based on data-driven models and take into account various factors such as temperature, humidity, wind speed, and pollution levels.
 
@@ -12,22 +7,22 @@ To develop solutions that can predict the occurrence of heat waves and the Air Q
 
 
 
-### Our solution
- - > In our project, data for Telangana's Tier 2 cities is fetched and stored in a CSV file. Using this data, we will then undertake data analysis and preprocessing in order to gain insightful information.
+### solution
+ - > In the project, data for Telangana's Tier 2 cities is fetched and stored in a CSV file. Using this data, data analysis and preprocessing is performed in order to gain insightful information.
 
-- > Using MAPE to assess the model's correctness, we were able to obtain a score that was reasonably low, indicating that the AQI prediction was accurate 
+- > Using MAPE to assess the model's correctness,  obtained a score that was reasonably low, indicating that the AQI prediction was accurate 
 
-- >  Using maximum temperature data, we also forecasted heat waves. Overall, our approach offers a trustworthy way to anticipate AQI and heat waves in Telangana's Tier 2 cities.
+- >  Using maximum temperature data forecasted heat waves. Overall, the approach offers a trustworthy way to anticipate AQI and heat waves in Telangana's Tier 2 cities.
 
-- > Our solution also involves retraining our model every seven days to improve the accuracy of our predictions. To achieve this, we collect current data to update the historical data used to train the model. By doing so, our model can make more accurate predictions based on the most recent data available.
-
-
+- > The solution also involves retraining model every seven days to improve the accuracy of our predictions. To achieve this, collected current data to update the historical data used to train the model. By doing so, the model can make more accurate predictions based on the most recent data available.
 
 
-### Our Model
 
-- >  Our project involves the use of ***SARIMAX model***, a powerful time series forecasting model that can take into account both the time component and exogenous variables such as weather data. SARIMAX model allows us to accurately predict the AQI and identify periods of heat waves using historical data and current weather data obtained from APIs.
-- > We evaluated the model's accuracy using Mean Absolute Percentage Error (MAPE). Our project also involved predicting heat waves using the temperature data obtained from Open Weather API.
+
+### Model
+
+- >  The project involves the use of ***SARIMAX model***, a powerful time series forecasting model that can take into account both the time component and exogenous variables such as weather data. SARIMAX model allows us to accurately predict the AQI and identify periods of heat waves using historical data and current weather data obtained from APIs.
+- > Evaluated the model's accuracy using Mean Absolute Percentage Error (MAPE). Our project also involved predicting heat waves using the temperature data obtained from Open Weather API.
 - > Model Accuracy for :
 - > Model Workflow 
 
@@ -46,27 +41,6 @@ To develop solutions that can predict the occurrence of heat waves and the Air Q
 ### Installation
 
 
-
-Clone the repository using the following command:
-```bash
-git clone https://github.com/iamneo-production/5e43a363-c20b-41af-8510-d632bdd2aa81.git
-```
-Change directory to the project directory:
-```bash
-cd 5e43a363-c20b-41af-8510-d632bdd2aa81
-```
-Activate the virtual environment:
-```bash
-source env/bin/activate
-```
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-Start the application:
-```bash
-python3 app.py
-```
 ## Screenshots
 
 ![f617c9b1-b578-4faf-9239-fabeda7262a3](https://user-images.githubusercontent.com/96522398/222923174-428ce240-e092-47a2-a948-85537946566e.jpg)
