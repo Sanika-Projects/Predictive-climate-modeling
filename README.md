@@ -83,11 +83,3 @@ python3 app.py
 
 ![ac20d546-1a3f-4155-9d6c-6c9b5dd263f9](https://user-images.githubusercontent.com/96522398/222923257-014adf01-4f73-41b8-861c-0fffb4ac01e0.jpg)
 
-
-### Team Members
-
-- [Aditya Gohil](https://github.com/Adi0015)
-- [Aman Yevge](https://github.com/amanyevge)
-- [Ria Kokate](https://github.com/RiaKokate)
-- [Sanika Chaudhari](https://github.com/Sanika0701)
-
